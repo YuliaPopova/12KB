@@ -1,0 +1,41 @@
+c:\users\yulia\documents\visual studio 2013\Projects\Server Miner\MinerClient\bin\Debug\MinerClient.exe.config
+c:\users\yulia\documents\visual studio 2013\Projects\Server Miner\MinerClient\obj\Debug\MinerClient.csprojResolveAssemblyReference.cache
+c:\users\yulia\documents\visual studio 2013\Projects\Server Miner\MinerClient\obj\Debug\MainWindow.baml
+c:\users\yulia\documents\visual studio 2013\Projects\Server Miner\MinerClient\obj\Debug\MainWindow.g.cs
+c:\users\yulia\documents\visual studio 2013\Projects\Server Miner\MinerClient\obj\Debug\App.g.cs
+c:\users\yulia\documents\visual studio 2013\Projects\Server Miner\MinerClient\obj\Debug\MinerClient_MarkupCompile.cache
+c:\users\yulia\documents\visual studio 2013\Projects\Server Miner\MinerClient\obj\Debug\MinerClient.g.resources
+c:\users\yulia\documents\visual studio 2013\Projects\Server Miner\MinerClient\obj\Debug\MinerClient.Properties.Resources.resources
+c:\users\yulia\documents\visual studio 2013\Projects\Server Miner\MinerClient\obj\Debug\MinerClient.csproj.GenerateResource.Cache
+c:\users\yulia\documents\visual studio 2013\Projects\Server Miner\MinerClient\bin\Debug\MinerClient.exe
+c:\users\yulia\documents\visual studio 2013\Projects\Server Miner\MinerClient\bin\Debug\MinerClient.pdb
+c:\users\yulia\documents\visual studio 2013\Projects\Server Miner\MinerClient\obj\Debug\MinerClient.exe
+c:\users\yulia\documents\visual studio 2013\Projects\Server Miner\MinerClient\obj\Debug\MinerClient.pdb
+c:\users\yulia\documents\visual studio 2013\Projects\Server Miner\MinerClient\obj\Debug\EnterName.baml
+c:\users\yulia\documents\visual studio 2013\Projects\Server Miner\MinerClient\obj\Debug\EnterName.g.cs
+C:\Users\admin\Documents\Visual Studio 2013\Projects\Server Miner\MinerClient\bin\Debug\MinerClient.exe.config
+C:\Users\admin\Documents\Visual Studio 2013\Projects\Server Miner\MinerClient\obj\Debug\MinerClient.exe
+C:\Users\admin\Documents\Visual Studio 2013\Projects\Server Miner\MinerClient\obj\Debug\MinerClient.pdb
+C:\Users\admin\Documents\Visual Studio 2013\Projects\Server Miner\MinerClient\bin\Debug\MinerClient.exe
+C:\Users\admin\Documents\Visual Studio 2013\Projects\Server Miner\MinerClient\bin\Debug\MinerClient.pdb
+C:\Users\admin\Documents\Visual Studio 2013\Projects\Server Miner\MinerClient\obj\Debug\MinerClient.csprojResolveAssemblyReference.cache
+C:\Users\admin\Documents\Visual Studio 2013\Projects\Server Miner\MinerClient\obj\Debug\MainWindow.baml
+C:\Users\admin\Documents\Visual Studio 2013\Projects\Server Miner\MinerClient\obj\Debug\MainWindow.g.cs
+C:\Users\admin\Documents\Visual Studio 2013\Projects\Server Miner\MinerClient\obj\Debug\App.g.cs
+C:\Users\admin\Documents\Visual Studio 2013\Projects\Server Miner\MinerClient\obj\Debug\MinerClient_MarkupCompile.cache
+C:\Users\admin\Documents\Visual Studio 2013\Projects\Server Miner\MinerClient\obj\Debug\MinerClient.g.resources
+C:\Users\admin\Documents\Visual Studio 2013\Projects\Server Miner\MinerClient\obj\Debug\MinerClient.Properties.Resources.resources
+C:\Users\admin\Documents\Visual Studio 2013\Projects\Server Miner\MinerClient\obj\Debug\MinerClient.csproj.GenerateResource.Cache
+C:\Users\Yulia\Desktop\Server Miner v0.2\MinerClient\bin\Debug\MinerClient.exe.config
+C:\Users\Yulia\Desktop\Server Miner v0.2\MinerClient\obj\Debug\MinerClient.exe
+C:\Users\Yulia\Desktop\Server Miner v0.2\MinerClient\obj\Debug\MinerClient.pdb
+C:\Users\Yulia\Desktop\Server Miner v0.2\MinerClient\bin\Debug\MinerClient.exe
+C:\Users\Yulia\Desktop\Server Miner v0.2\MinerClient\bin\Debug\MinerClient.pdb
+C:\Users\Yulia\Desktop\Server Miner v0.2\MinerClient\obj\Debug\MinerClient.csprojResolveAssemblyReference.cache
+C:\Users\Yulia\Desktop\Server Miner v0.2\MinerClient\obj\Debug\MainWindow.baml
+C:\Users\Yulia\Desktop\Server Miner v0.2\MinerClient\obj\Debug\MainWindow.g.cs
+C:\Users\Yulia\Desktop\Server Miner v0.2\MinerClient\obj\Debug\App.g.cs
+C:\Users\Yulia\Desktop\Server Miner v0.2\MinerClient\obj\Debug\MinerClient_MarkupCompile.cache
+C:\Users\Yulia\Desktop\Server Miner v0.2\MinerClient\obj\Debug\MinerClient.g.resources
+C:\Users\Yulia\Desktop\Server Miner v0.2\MinerClient\obj\Debug\MinerClient.Properties.Resources.resources
+C:\Users\Yulia\Desktop\Server Miner v0.2\MinerClient\obj\Debug\MinerClient.csproj.GenerateResource.Cache

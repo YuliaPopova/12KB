@@ -1,0 +1,18 @@
+c:\users\yulia\documents\visual studio 2013\Projects\Server Miner\Server Miner\bin\Debug\Server Miner.exe.config
+c:\users\yulia\documents\visual studio 2013\Projects\Server Miner\Server Miner\obj\Debug\Server Miner.csprojResolveAssemblyReference.cache
+c:\users\yulia\documents\visual studio 2013\Projects\Server Miner\Server Miner\bin\Debug\Server Miner.exe
+c:\users\yulia\documents\visual studio 2013\Projects\Server Miner\Server Miner\bin\Debug\Server Miner.pdb
+c:\users\yulia\documents\visual studio 2013\Projects\Server Miner\Server Miner\obj\Debug\Server Miner.exe
+c:\users\yulia\documents\visual studio 2013\Projects\Server Miner\Server Miner\obj\Debug\Server Miner.pdb
+C:\Users\admin\Documents\Visual Studio 2013\Projects\Server Miner\Server Miner\bin\Debug\Server Miner.exe.config
+C:\Users\admin\Documents\Visual Studio 2013\Projects\Server Miner\Server Miner\obj\Debug\Server Miner.exe
+C:\Users\admin\Documents\Visual Studio 2013\Projects\Server Miner\Server Miner\obj\Debug\Server Miner.pdb
+C:\Users\admin\Documents\Visual Studio 2013\Projects\Server Miner\Server Miner\bin\Debug\Server Miner.exe
+C:\Users\admin\Documents\Visual Studio 2013\Projects\Server Miner\Server Miner\bin\Debug\Server Miner.pdb
+C:\Users\admin\Documents\Visual Studio 2013\Projects\Server Miner\Server Miner\obj\Debug\Server Miner.csprojResolveAssemblyReference.cache
+C:\Users\Yulia\Desktop\Server Miner v0.2\Server Miner\bin\Debug\Server Miner.exe.config
+C:\Users\Yulia\Desktop\Server Miner v0.2\Server Miner\obj\Debug\Server Miner.exe
+C:\Users\Yulia\Desktop\Server Miner v0.2\Server Miner\obj\Debug\Server Miner.pdb
+C:\Users\Yulia\Desktop\Server Miner v0.2\Server Miner\bin\Debug\Server Miner.exe
+C:\Users\Yulia\Desktop\Server Miner v0.2\Server Miner\bin\Debug\Server Miner.pdb
+C:\Users\Yulia\Desktop\Server Miner v0.2\Server Miner\obj\Debug\Server Miner.csprojResolveAssemblyReference.cache
