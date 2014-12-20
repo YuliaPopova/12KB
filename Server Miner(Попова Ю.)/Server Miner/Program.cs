@@ -11,9 +11,6 @@ namespace Server_Miner
     {
         static void Main(string[] args)
         {
-            
-            ///
-            /// 
             var serviceHost = new ServiceHost(typeof(Service1));
             serviceHost.Open();
             Console.WriteLine("Miner is running...");

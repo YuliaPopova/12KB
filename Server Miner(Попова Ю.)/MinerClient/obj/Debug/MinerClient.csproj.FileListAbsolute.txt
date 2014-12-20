@@ -39,3 +39,6 @@ C:\Users\Yulia\Desktop\Server Miner v0.2\MinerClient\obj\Debug\MinerClient_Marku
 C:\Users\Yulia\Desktop\Server Miner v0.2\MinerClient\obj\Debug\MinerClient.g.resources
 C:\Users\Yulia\Desktop\Server Miner v0.2\MinerClient\obj\Debug\MinerClient.Properties.Resources.resources
 C:\Users\Yulia\Desktop\Server Miner v0.2\MinerClient\obj\Debug\MinerClient.csproj.GenerateResource.Cache
+C:\Users\Yulia\Documents\GitHub\12KB\Server Miner(Попова Ю.)\MinerClient\bin\Debug\MinerClient.exe.config
+C:\Users\Yulia\Documents\GitHub\12KB\Server Miner(Попова Ю.)\MinerClient\obj\Debug\MinerClient.exe
+C:\Users\Yulia\Documents\GitHub\12KB\Server Miner(Попова Ю.)\MinerClient\obj\Debug\MinerClient.pdb

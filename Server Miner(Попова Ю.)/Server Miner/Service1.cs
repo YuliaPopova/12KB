@@ -16,7 +16,6 @@ namespace Server_Miner
             Console.WriteLine("EnterName");
           if (!File.Exists(@"UserGame\" + name))
           {
-           // File.WriteAllText(@"UserGame\" + name, "");
               StreamWriter sw = new StreamWriter(@"UserGame\" + name,false);
               sw.Write("q");
               sw.Close();
@@ -52,7 +51,6 @@ namespace Server_Miner
             Console.WriteLine("Exit");
             File.Delete(@"UserGame\" + name);
         }
-        #region второстепенные функции
         public void SetBombs(int[,] Mas, int N, int M, int NumBombs)
         {
             for (int i = 0; i < NumBombs; i++)
@@ -69,7 +67,6 @@ namespace Server_Miner
 
             }
         }
-
         public void CountBombs(int[,] Mas, int N, int M)
         {
 
@@ -125,6 +122,5 @@ namespace Server_Miner
                 }
             }
         }
-        #endregion
     }
 }
