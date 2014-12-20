@@ -72,6 +72,8 @@ namespace MinerClient
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
+            cnvMain.Visibility = Visibility.Visible;
+            btnEnter.IsEnabled = false;
             var Image = new BitmapImage();
             Image.BeginInit();
             Image.UriSource = new Uri(@"/Images/new_game.jpg", UriKind.RelativeOrAbsolute); //загружаем картинку
@@ -320,31 +322,32 @@ namespace MinerClient
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-          var minerClient = new Service1Client();
-          if (minerClient.EnterName(NamePlayer.Text))
-          {
-              Name = NamePlayer.Text;
-              MI.IsEnabled = true;
-              ButExi.Visibility = gridPanel.Visibility = Visibility.Visible;
-              NamePlayer.IsEnabled = false;
-              Window_Loaded_easy(sender, e);
-          }
-          else
-          {
-              MessageBox.Show( "Take another name!","Is already taken!");
-          }
+            if (NamePlayer.Text == "")
+                MessageBox.Show("Enter name!", "Error");
+            var minerClient = new Service1Client();
+            if (minerClient.EnterName(NamePlayer.Text))
+            {
+                Name = NamePlayer.Text;
+                MI.IsEnabled = true;
+                ButExi.Visibility = gridPanel.Visibility = Visibility.Visible;
+                NamePlayer.IsEnabled = false;
+                Window_Loaded_easy(sender, e);
+            }
+            else
+            {
+                MessageBox.Show("Take another name!", "Is already taken!");
+            }
         }
 
         private void ButExi_Click(object sender, RoutedEventArgs e)
         {
-          var minerClient = new Service1Client();
-          minerClient.Exit(NamePlayer.Text);
-          MI.IsEnabled = false;
-          NamePlayer.Text = "";
-          ButExi.Visibility = gridPanel.Visibility = Visibility.Hidden;
-          foreach (Button btn in btns)
-                btn.Visibility = Visibility.Hidden;
-          NamePlayer.IsEnabled = true;
+            btnEnter.IsEnabled = true;
+            var minerClient = new Service1Client();
+            minerClient.Exit(NamePlayer.Text);
+            MI.IsEnabled = false;
+            NamePlayer.Text = "";
+            ButExi.Visibility = gridPanel.Visibility = cnvMain.Visibility=Visibility.Hidden;
+            NamePlayer.IsEnabled = true;
         }
     }
 }

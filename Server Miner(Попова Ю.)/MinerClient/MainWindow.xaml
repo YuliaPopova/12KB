@@ -38,7 +38,7 @@
             <Image Source="Images/bomb.jpg" Height="30" Grid.Column="3" HorizontalAlignment="Right"/>
         </Grid>
         <TextBox x:Name="NamePlayer" HorizontalAlignment="Right" Height="20" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="0,-1,75,0" Text="UserName"/>
-        <Button Content="Enter" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Width="75" Margin="0,-1,0,0" Click="Button_Click"/>
+        <Button x:Name="btnEnter" Content="Enter" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Width="75" Margin="0,-1,0,0" Click="Button_Click"/>
         <Button x:Name="ButExi" Content="Exit" HorizontalAlignment="Right" Width="75" Margin="0,-1,0,0" Click="ButExi_Click" Height="20" VerticalAlignment="Top" Visibility="Hidden"/>
     </Grid>
 </Window>
