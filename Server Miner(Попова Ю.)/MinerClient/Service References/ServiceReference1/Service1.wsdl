@@ -4,6 +4,7 @@
     <xsd:schema targetNamespace="http://tempuri.org/Imports">
       <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/Server_Miner/Service1/?xsd=xsd0" namespace="http://tempuri.org/" />
       <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/Server_Miner/Service1/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/Server_Miner/Service1/?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
     </xsd:schema>
   </wsdl:types>
   <wsdl:message name="IService1_EnterName_InputMessage">
@@ -30,6 +31,24 @@
   <wsdl:message name="IService1_Exit_OutputMessage">
     <wsdl:part name="parameters" element="tns:ExitResponse" />
   </wsdl:message>
+  <wsdl:message name="IService1_Record_InputMessage">
+    <wsdl:part name="parameters" element="tns:Record" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Record_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RecordResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_BinaryAdd_InputMessage">
+    <wsdl:part name="parameters" element="tns:BinaryAdd" />
+  </wsdl:message>
+  <wsdl:message name="IService1_BinaryAdd_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BinaryAddResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_PrintRec_InputMessage">
+    <wsdl:part name="parameters" element="tns:PrintRec" />
+  </wsdl:message>
+  <wsdl:message name="IService1_PrintRec_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PrintRecResponse" />
+  </wsdl:message>
   <wsdl:portType name="IService1">
     <wsdl:operation name="EnterName">
       <wsdl:input wsaw:Action="http://tempuri.org/IService1/EnterName" message="tns:IService1_EnterName_InputMessage" />
@@ -46,6 +65,18 @@
     <wsdl:operation name="Exit">
       <wsdl:input wsaw:Action="http://tempuri.org/IService1/Exit" message="tns:IService1_Exit_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IService1/ExitResponse" message="tns:IService1_Exit_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Record">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Record" message="tns:IService1_Record_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/RecordResponse" message="tns:IService1_Record_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BinaryAdd">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/BinaryAdd" message="tns:IService1_BinaryAdd_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/BinaryAddResponse" message="tns:IService1_BinaryAdd_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PrintRec">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/PrintRec" message="tns:IService1_PrintRec_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/PrintRecResponse" message="tns:IService1_PrintRec_OutputMessage" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
@@ -79,6 +110,33 @@
     </wsdl:operation>
     <wsdl:operation name="Exit">
       <soap:operation soapAction="http://tempuri.org/IService1/Exit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Record">
+      <soap:operation soapAction="http://tempuri.org/IService1/Record" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BinaryAdd">
+      <soap:operation soapAction="http://tempuri.org/IService1/BinaryAdd" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PrintRec">
+      <soap:operation soapAction="http://tempuri.org/IService1/PrintRec" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>

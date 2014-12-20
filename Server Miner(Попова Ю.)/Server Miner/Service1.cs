@@ -51,6 +51,54 @@ namespace Server_Miner
             Console.WriteLine("Exit");
             File.Delete(@"UserGame\" + name);
         }
+
+        public void Record(string name, int time, int level)
+        {
+            string[] str = File.ReadAllLines(@"Records\" + level + ".txt").ToArray();
+            int N = str.Count(i => i.Split(' ').ToArray().Length > 1);
+            if (N < 10 || time < int.Parse(str[9].Split(' ').ToArray()[2])) //надо дописать наш рекорд
+            {
+                BinaryAdd(name, time, ref str, 0, 9, N);
+            }
+            StreamWriter sw = new StreamWriter(@"Records\" + level + ".txt");
+            foreach (var s in str)
+            {
+                sw.WriteLine(s);
+            }
+            sw.Close();
+        }
+
+        public void BinaryAdd(string name, int time, ref string [] mas, int l, int r, int N)
+        {
+            if (r - l <= 1) //пишем в найденное место
+            {
+                if (N == 0 || int.Parse(mas[0].Split(' ').ToArray()[2]) > time)
+                    r = l;
+                N++;
+                for (int i = N - 1; i > r; i--)
+                {
+                    mas[i] = i + 1 + ". " + mas[i - 1].Split(' ').ToArray()[1] + ' ' +
+                        mas[i - 1].Split(' ').ToArray()[2] + ' ' + mas[i - 1].Split(' ').ToArray()[3];
+                }
+                mas[r] = r + 1 + ". " + name + " " + time + " c.";
+                return;
+            }
+            int m = (l + r) / 2;
+            if (N < m + 1 || time < int.Parse(mas[m].Split(' ').ToArray()[2]))
+                BinaryAdd(name, time, ref mas, l, m, N);
+            else
+            {
+                BinaryAdd(name, time, ref mas, m, r, N);
+            }
+
+        }
+
+        public string[] PrintRec(int level)
+        {
+            return File.ReadAllLines(@"Records\" + level + ".txt").ToArray();
+            
+        }
+
         public void SetBombs(int[,] Mas, int N, int M, int NumBombs)
         {
             for (int i = 0; i < NumBombs; i++)

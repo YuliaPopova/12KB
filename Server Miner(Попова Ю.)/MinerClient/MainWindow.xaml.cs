@@ -27,7 +27,7 @@ namespace MinerClient
             timer.Tick += timer_Tick;
         }
 
-        int N, M, NumBombs;
+        int N, M, NumBombs, level;
 
         void timer_Tick(object sender, EventArgs e)
         {
@@ -41,6 +41,7 @@ namespace MinerClient
         {
             N = 9;
             M = 9;
+            level = 1;
             NumBombs = 10;
             Miner.Height = 360;
             Miner.Width = 290;
@@ -52,6 +53,7 @@ namespace MinerClient
         {
             N = 16;
             M = 16;
+            level = 2;
             NumBombs = 40;
             Miner.Height = 570;
             Miner.Width = 500;
@@ -63,6 +65,7 @@ namespace MinerClient
         {
             N = 30;
             M = 16;
+            level = 3;
             NumBombs = 99;
             Miner.Height = 570;
             Miner.Width = 920;
@@ -249,6 +252,10 @@ namespace MinerClient
                             btns[i, j].IsEnabled = false;
                         }
                     timer.Stop();
+
+                    MinerClient.Record(Name, int.Parse(lblTimer.Content.ToString()), level);
+                    Window w = new Records();
+                    w.Show();
                     if (
                         MessageBox.Show("You won!!! Your time is " + lblTimer.Content + " seconds. Play again?",
                             "Congratulations!", MessageBoxButton.YesNo, MessageBoxImage.Question) ==
@@ -338,7 +345,6 @@ namespace MinerClient
                 MessageBox.Show("Take another name!", "Is already taken!");
             }
         }
-
         private void ButExi_Click(object sender, RoutedEventArgs e)
         {
             btnEnter.IsEnabled = true;

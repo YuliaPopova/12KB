@@ -19,5 +19,11 @@ namespace Server_Miner
         int Click(string name, int N, int M);
         [OperationContract]
         void Exit(string name);
+        [OperationContract]
+        void Record(string name, int time, int level);
+        [OperationContract]
+        void BinaryAdd(string name, int time, ref string [] mas, int l, int r, int N);
+        [OperationContract]
+        string[] PrintRec(int level);
     }
 }

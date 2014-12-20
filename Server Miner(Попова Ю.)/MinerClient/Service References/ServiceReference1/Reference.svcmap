@@ -23,6 +23,7 @@
   </MetadataSources>
   <Metadata>
     <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="8a3cb6a6-f4e7-4972-a381-80f0d0e853ec" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/Server_Miner/Service1/?xsd=xsd1" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="600df24e-0884-4433-bd67-87ef57b4699e" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/Server_Miner/Service1/?xsd=xsd2" />
     <MetadataFile FileName="item.disco" MetadataType="Disco" ID="ad5914f0-e716-4866-bdfe-69d335a1b0fb" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/Server_Miner/Service1/?disco" />
     <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="d2371084-2f5e-4d32-b377-cee1f659bdd9" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/Server_Miner/Service1/?xsd=xsd0" />
     <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="e230c18f-510c-453b-a13e-a9229a597c54" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/Server_Miner/Service1/?wsdl" />

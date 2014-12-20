@@ -38,6 +38,77 @@ namespace MinerClient.ServiceReference1 {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/Exit", ReplyAction="http://tempuri.org/IService1/ExitResponse")]
         System.Threading.Tasks.Task ExitAsync(string name);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/Record", ReplyAction="http://tempuri.org/IService1/RecordResponse")]
+        void Record(string name, int time, int level);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/Record", ReplyAction="http://tempuri.org/IService1/RecordResponse")]
+        System.Threading.Tasks.Task RecordAsync(string name, int time, int level);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/BinaryAdd", ReplyAction="http://tempuri.org/IService1/BinaryAddResponse")]
+        MinerClient.ServiceReference1.BinaryAddResponse BinaryAdd(MinerClient.ServiceReference1.BinaryAddRequest request);
+        
+        // CODEGEN: Идет формирование контракта на сообщение, так как операция может иметь много возвращаемых значений.
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/BinaryAdd", ReplyAction="http://tempuri.org/IService1/BinaryAddResponse")]
+        System.Threading.Tasks.Task<MinerClient.ServiceReference1.BinaryAddResponse> BinaryAddAsync(MinerClient.ServiceReference1.BinaryAddRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/PrintRec", ReplyAction="http://tempuri.org/IService1/PrintRecResponse")]
+        string[] PrintRec(int level);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/PrintRec", ReplyAction="http://tempuri.org/IService1/PrintRecResponse")]
+        System.Threading.Tasks.Task<string[]> PrintRecAsync(int level);
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="BinaryAdd", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class BinaryAddRequest {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        public string name;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
+        public int time;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=2)]
+        public string[] mas;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=3)]
+        public int l;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=4)]
+        public int r;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=5)]
+        public int N;
+        
+        public BinaryAddRequest() {
+        }
+        
+        public BinaryAddRequest(string name, int time, string[] mas, int l, int r, int N) {
+            this.name = name;
+            this.time = time;
+            this.mas = mas;
+            this.l = l;
+            this.r = r;
+            this.N = N;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="BinaryAddResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class BinaryAddResponse {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        public string[] mas;
+        
+        public BinaryAddResponse() {
+        }
+        
+        public BinaryAddResponse(string[] mas) {
+            this.mas = mas;
+        }
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -97,6 +168,43 @@ namespace MinerClient.ServiceReference1 {
         
         public System.Threading.Tasks.Task ExitAsync(string name) {
             return base.Channel.ExitAsync(name);
+        }
+        
+        public void Record(string name, int time, int level) {
+            base.Channel.Record(name, time, level);
+        }
+        
+        public System.Threading.Tasks.Task RecordAsync(string name, int time, int level) {
+            return base.Channel.RecordAsync(name, time, level);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        MinerClient.ServiceReference1.BinaryAddResponse MinerClient.ServiceReference1.IService1.BinaryAdd(MinerClient.ServiceReference1.BinaryAddRequest request) {
+            return base.Channel.BinaryAdd(request);
+        }
+        
+        public void BinaryAdd(string name, int time, ref string[] mas, int l, int r, int N) {
+            MinerClient.ServiceReference1.BinaryAddRequest inValue = new MinerClient.ServiceReference1.BinaryAddRequest();
+            inValue.name = name;
+            inValue.time = time;
+            inValue.mas = mas;
+            inValue.l = l;
+            inValue.r = r;
+            inValue.N = N;
+            MinerClient.ServiceReference1.BinaryAddResponse retVal = ((MinerClient.ServiceReference1.IService1)(this)).BinaryAdd(inValue);
+            mas = retVal.mas;
+        }
+        
+        public System.Threading.Tasks.Task<MinerClient.ServiceReference1.BinaryAddResponse> BinaryAddAsync(MinerClient.ServiceReference1.BinaryAddRequest request) {
+            return base.Channel.BinaryAddAsync(request);
+        }
+        
+        public string[] PrintRec(int level) {
+            return base.Channel.PrintRec(level);
+        }
+        
+        public System.Threading.Tasks.Task<string[]> PrintRecAsync(int level) {
+            return base.Channel.PrintRecAsync(level);
         }
     }
 }

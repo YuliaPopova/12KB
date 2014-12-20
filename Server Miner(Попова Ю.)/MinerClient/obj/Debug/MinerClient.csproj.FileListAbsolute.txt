@@ -52,3 +52,5 @@ C:\Users\Yulia\Documents\GitHub\12KB\Server Miner(Попова Ю.)\MinerClient\
 C:\Users\Yulia\Documents\GitHub\12KB\Server Miner(Попова Ю.)\MinerClient\obj\Debug\MinerClient.g.resources
 C:\Users\Yulia\Documents\GitHub\12KB\Server Miner(Попова Ю.)\MinerClient\obj\Debug\MinerClient.Properties.Resources.resources
 C:\Users\Yulia\Documents\GitHub\12KB\Server Miner(Попова Ю.)\MinerClient\obj\Debug\MinerClient.csproj.GenerateResource.Cache
+C:\Users\Yulia\Documents\GitHub\12KB\Server Miner(Попова Ю.)\MinerClient\obj\Debug\Records.baml
+C:\Users\Yulia\Documents\GitHub\12KB\Server Miner(Попова Ю.)\MinerClient\obj\Debug\Records.g.cs
