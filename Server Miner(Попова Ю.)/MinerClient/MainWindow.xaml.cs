@@ -342,6 +342,8 @@ namespace MinerClient
           MI.IsEnabled = false;
           NamePlayer.Text = "";
           ButExi.Visibility = gridPanel.Visibility = Visibility.Hidden;
+          foreach (Button btn in btns)
+                btn.Visibility = Visibility.Hidden;
           NamePlayer.IsEnabled = true;
         }
     }

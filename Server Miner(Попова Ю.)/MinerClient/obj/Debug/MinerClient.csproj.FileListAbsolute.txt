@@ -42,3 +42,13 @@ C:\Users\Yulia\Desktop\Server Miner v0.2\MinerClient\obj\Debug\MinerClient.cspro
 C:\Users\Yulia\Documents\GitHub\12KB\Server Miner(Попова Ю.)\MinerClient\bin\Debug\MinerClient.exe.config
 C:\Users\Yulia\Documents\GitHub\12KB\Server Miner(Попова Ю.)\MinerClient\obj\Debug\MinerClient.exe
 C:\Users\Yulia\Documents\GitHub\12KB\Server Miner(Попова Ю.)\MinerClient\obj\Debug\MinerClient.pdb
+C:\Users\Yulia\Documents\GitHub\12KB\Server Miner(Попова Ю.)\MinerClient\bin\Debug\MinerClient.exe
+C:\Users\Yulia\Documents\GitHub\12KB\Server Miner(Попова Ю.)\MinerClient\bin\Debug\MinerClient.pdb
+C:\Users\Yulia\Documents\GitHub\12KB\Server Miner(Попова Ю.)\MinerClient\obj\Debug\MinerClient.csprojResolveAssemblyReference.cache
+C:\Users\Yulia\Documents\GitHub\12KB\Server Miner(Попова Ю.)\MinerClient\obj\Debug\MainWindow.baml
+C:\Users\Yulia\Documents\GitHub\12KB\Server Miner(Попова Ю.)\MinerClient\obj\Debug\MainWindow.g.cs
+C:\Users\Yulia\Documents\GitHub\12KB\Server Miner(Попова Ю.)\MinerClient\obj\Debug\App.g.cs
+C:\Users\Yulia\Documents\GitHub\12KB\Server Miner(Попова Ю.)\MinerClient\obj\Debug\MinerClient_MarkupCompile.cache
+C:\Users\Yulia\Documents\GitHub\12KB\Server Miner(Попова Ю.)\MinerClient\obj\Debug\MinerClient.g.resources
+C:\Users\Yulia\Documents\GitHub\12KB\Server Miner(Попова Ю.)\MinerClient\obj\Debug\MinerClient.Properties.Resources.resources
+C:\Users\Yulia\Documents\GitHub\12KB\Server Miner(Попова Ю.)\MinerClient\obj\Debug\MinerClient.csproj.GenerateResource.Cache
