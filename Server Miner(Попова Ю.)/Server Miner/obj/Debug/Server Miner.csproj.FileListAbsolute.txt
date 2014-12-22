@@ -22,3 +22,6 @@ C:\Users\Yulia\Documents\GitHub\12KB\Server Miner(Попова Ю.)\Server Miner
 C:\Users\Yulia\Documents\GitHub\12KB\Server Miner(Попова Ю.)\Server Miner\bin\Debug\Server Miner.exe
 C:\Users\Yulia\Documents\GitHub\12KB\Server Miner(Попова Ю.)\Server Miner\bin\Debug\Server Miner.pdb
 C:\Users\Yulia\Documents\GitHub\12KB\Server Miner(Попова Ю.)\Server Miner\obj\Debug\Server Miner.csprojResolveAssemblyReference.cache
+D:\Съемный диск\яп\Методы программирования\Server Miner(Попова Ю.)\Server Miner\bin\Debug\Server Miner.exe.config
+D:\Съемный диск\яп\Методы программирования\Server Miner(Попова Ю.)\Server Miner\obj\Debug\Server Miner.exe
+D:\Съемный диск\яп\Методы программирования\Server Miner(Попова Ю.)\Server Miner\obj\Debug\Server Miner.pdb

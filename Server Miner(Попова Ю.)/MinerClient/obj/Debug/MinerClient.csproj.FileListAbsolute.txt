@@ -54,3 +54,18 @@ C:\Users\Yulia\Documents\GitHub\12KB\Server Miner(Попова Ю.)\MinerClient\
 C:\Users\Yulia\Documents\GitHub\12KB\Server Miner(Попова Ю.)\MinerClient\obj\Debug\MinerClient.csproj.GenerateResource.Cache
 C:\Users\Yulia\Documents\GitHub\12KB\Server Miner(Попова Ю.)\MinerClient\obj\Debug\Records.baml
 C:\Users\Yulia\Documents\GitHub\12KB\Server Miner(Попова Ю.)\MinerClient\obj\Debug\Records.g.cs
+D:\Съемный диск\яп\Методы программирования\Server Miner(Попова Ю.)\MinerClient\bin\Debug\MinerClient.exe.config
+D:\Съемный диск\яп\Методы программирования\Server Miner(Попова Ю.)\MinerClient\obj\Debug\MinerClient.exe
+D:\Съемный диск\яп\Методы программирования\Server Miner(Попова Ю.)\MinerClient\obj\Debug\MinerClient.pdb
+D:\Съемный диск\яп\Методы программирования\Server Miner(Попова Ю.)\MinerClient\bin\Debug\MinerClient.exe
+D:\Съемный диск\яп\Методы программирования\Server Miner(Попова Ю.)\MinerClient\bin\Debug\MinerClient.pdb
+D:\Съемный диск\яп\Методы программирования\Server Miner(Попова Ю.)\MinerClient\obj\Debug\MinerClient.csprojResolveAssemblyReference.cache
+D:\Съемный диск\яп\Методы программирования\Server Miner(Попова Ю.)\MinerClient\obj\Debug\MainWindow.baml
+D:\Съемный диск\яп\Методы программирования\Server Miner(Попова Ю.)\MinerClient\obj\Debug\Records.baml
+D:\Съемный диск\яп\Методы программирования\Server Miner(Попова Ю.)\MinerClient\obj\Debug\MainWindow.g.cs
+D:\Съемный диск\яп\Методы программирования\Server Miner(Попова Ю.)\MinerClient\obj\Debug\Records.g.cs
+D:\Съемный диск\яп\Методы программирования\Server Miner(Попова Ю.)\MinerClient\obj\Debug\App.g.cs
+D:\Съемный диск\яп\Методы программирования\Server Miner(Попова Ю.)\MinerClient\obj\Debug\MinerClient_MarkupCompile.cache
+D:\Съемный диск\яп\Методы программирования\Server Miner(Попова Ю.)\MinerClient\obj\Debug\MinerClient.g.resources
+D:\Съемный диск\яп\Методы программирования\Server Miner(Попова Ю.)\MinerClient\obj\Debug\MinerClient.Properties.Resources.resources
+D:\Съемный диск\яп\Методы программирования\Server Miner(Попова Ю.)\MinerClient\obj\Debug\MinerClient.csproj.GenerateResource.Cache
